@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: mindshell-server
+  profiles:
+    active: dev

@@ -1,0 +1,8 @@
+name: mindshell-demo
+services:
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "127.0.0.1:8080:80"
+    volumes:
+      - ./nginx/html:/usr/share/nginx/html:ro

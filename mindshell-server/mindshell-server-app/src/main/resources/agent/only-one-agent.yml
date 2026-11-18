@@ -1,0 +1,37 @@
+ai:
+  agent:
+    config:
+      tables:
+        testAgent03:
+          app-name: testAgent03
+          agent:
+            agent-id: 100003
+            agent-name: 单一智能体
+            agent-desc: 单一智能体
+          module:
+            ai-api:
+              base-url: "${MINDSHELL_AI_BASE_URL}"
+              api-key: "${MINDSHELL_AI_API_KEY}"
+              completions-path: /chat/completions
+              embeddings-path: /embeddings
+            chat-model:
+              model: "${MINDSHELL_AI_MODEL}"
+              tool-mcp-list:
+                - sse:
+                    name: baidu-search
+                    base-uri: "${MINDSHELL_MCP_BASE_URL}"
+                    sse-endpoint: "${MINDSHELL_MCP_SSE_ENDPOINT:/sse}"
+                    request-timeout: 500000
+                - local:
+                    name: myToolCallbackProvider
+
+            agents:
+              - name: onlyAgent
+                description: 编程项目学习计划
+                instruction: |
+                  通过百度检索适合初学者的编程实战项目，并根据检索内容，针对初学用户给出学习计划。
+            runner:
+              agent-name: onlyAgent
+              plugin-name-list:
+                - myTestPlugin
+                - myLogPlugin

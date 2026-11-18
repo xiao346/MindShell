@@ -1,0 +1,25 @@
+.env
+.env.*
+!.env.example
+.local-config
+*.log
+.idea/
+data/
+node_modules/
+dist/
+target/
+*.pem
+*.ppk
+*.pfx
+*.p12
+*.key
+*.jks
+*.keystore
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+
+# Third-party PDF skill is available only in the local source tree.
+/mindshell-server/docs/dev-ops/agent/skills/pdf/
+/mindshell-server/mindshell-server-app/src/main/resources/agent/skills/pdf/

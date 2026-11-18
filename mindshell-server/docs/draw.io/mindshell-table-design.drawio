@@ -1,0 +1,556 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="mindshell-er-diagram" name="MindShell-ER图">
+    <mxGraphModel dx="1473" dy="843" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="table_ssh_connection_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f7fa;strokeColor=#b3b3b3;shadow=1;fontSize=12;arcSize=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="600" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_header" value="📋 ssh_connection — SSH连接配置表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a3a5c;strokeColor=#0d2137;fontSize=14;fontColor=#ffffff;fontStyle=1;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_col_header" value="字段名" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1a3a5c;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="100" y="120" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_type_header" value="类型" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1a3a5c;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="260" y="120" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_null_header" value="NULL" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1a3a5c;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="390" y="120" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_default_header" value="默认值" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1a3a5c;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="450" y="120" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_comment_header" value="注释" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1a3a5c;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="540" y="120" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_line1" value="" style="line;strokeWidth=2;html=1;strokeColor=#b3b3b3;" parent="1" vertex="1">
+          <mxGeometry x="100" y="140" width="560" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_row1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="150" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_pk" value="PK" style="text;html=1;strokeColor=none;fillColor=#c8960c;fontColor=#ffffff;align=center;verticalAlign=middle;rounded=1;fontSize=9;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="105" y="155" width="28" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_id" value="id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=45;" parent="1" vertex="1">
+          <mxGeometry x="140" y="155" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_id_type" value="bigint" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="155" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_id_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="155" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_id_default" value="-" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;" parent="1" vertex="1">
+          <mxGeometry x="450" y="155" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_id_comment" value="自增主键" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="540" y="155" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_row2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="180" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_uk" value="UK" style="text;html=1;strokeColor=none;fillColor=#2980b9;fontColor=#ffffff;align=center;verticalAlign=middle;rounded=1;fontSize=9;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="105" y="185" width="28" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_connection_id_type" value="varchar(64)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="185" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_connection_id_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="185" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_connection_id_default" value="-" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;" parent="1" vertex="1">
+          <mxGeometry x="450" y="185" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_connection_id_comment" value="连接唯一标识(UUID)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="540" y="185" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_row3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="210" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_connection_name" value="connection_name" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="215" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_connection_name_type" value="varchar(128)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="215" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_connection_name_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="215" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_connection_name_default" value="-" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;" parent="1" vertex="1">
+          <mxGeometry x="450" y="215" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_connection_name_comment" value="连接名称" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="540" y="215" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_row4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="240" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_host" value="host" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="245" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_host_type" value="varchar(255)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="245" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_host_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="245" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_host_default" value="-" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;" parent="1" vertex="1">
+          <mxGeometry x="450" y="245" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_host_comment" value="主机地址" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="540" y="245" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_row5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="270" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_port" value="port" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="275" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_port_type" value="int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="275" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_port_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="275" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_port_default" value="22" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="275" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_port_comment" value="端口号" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="540" y="275" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_row6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="300" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_username" value="username" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="305" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_username_type" value="varchar(128)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="305" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_username_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="305" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_username_default" value="-" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;" parent="1" vertex="1">
+          <mxGeometry x="450" y="305" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_username_comment" value="用户名" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="540" y="305" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_row7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="330" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_auth_type" value="auth_type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="335" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_auth_type_type" value="tinyint" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="335" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_auth_type_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="335" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_auth_type_default" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="335" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_auth_type_comment" value="认证类型:1-密码,2-私钥" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="540" y="335" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_row8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="360" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_password" value="password" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="365" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_password_type" value="varchar(512)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="365" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_password_null" value="√" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="365" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_password_default" value="NULL" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;" parent="1" vertex="1">
+          <mxGeometry x="450" y="365" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_password_comment" value="密码(加密存储)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="540" y="365" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_row9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="390" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_private_key" value="private_key" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="395" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_private_key_type" value="longtext" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="395" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_private_key_null" value="√" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="395" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_private_key_default" value="NULL" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;" parent="1" vertex="1">
+          <mxGeometry x="450" y="395" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_private_key_comment" value="私钥内容(加密存储)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="540" y="395" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_row10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="420" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_encrypted" value="encrypted" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="425" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_encrypted_type" value="tinyint" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="425" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_encrypted_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="425" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_encrypted_default" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="425" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_encrypted_comment" value="是否加密:0-否,1-是" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="540" y="425" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_row11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="450" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_status" value="status" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="455" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_status_type" value="tinyint" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="455" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_status_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="455" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_status_default" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="455" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_status_comment" value="连接状态:0-未连接,1-已连接,&lt;div&gt;2-连接中,3-连接失败&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="540" y="455" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_row12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="480" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_user_id" value="user_id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="485" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_user_id_type" value="varchar(64)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="485" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_user_id_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="485" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_user_id_default" value="default" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="485" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_user_id_comment" value="用户ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="540" y="485" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_row13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="510" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_created_at" value="created_at" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="515" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_created_at_type" value="datetime" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="515" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_created_at_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="515" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_created_at_default" value="NOW()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="515" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_created_at_comment" value="创建时间" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="540" y="515" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_row14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="540" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_updated_at" value="updated_at" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="545" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_updated_at_type" value="datetime" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="545" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_updated_at_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="545" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_updated_at_default" value="NOW()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="545" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_updated_at_comment" value="更新时间(自动刷新)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="540" y="545" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_row15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="570" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_deleted" value="deleted" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="575" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_deleted_type" value="tinyint" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="575" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_deleted_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="575" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_deleted_default" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="575" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_deleted_comment" value="逻辑删除:0-未删除,1-已删除" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="540" y="575" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_idx_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f4f8;strokeColor=#b3d9e8;shadow=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="100" y="610" width="570" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_idx_title" value="🔑 索引" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1a3a5c;spacingLeft=8;" parent="1" vertex="1">
+          <mxGeometry x="108" y="615" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_idx_pk" value="PRIMARY KEY (id)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#c8960c;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="108" y="638" width="180" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_idx_uk" value="UNIQUE KEY uk_connection_id (connection_id)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#2980b9;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="108" y="656" width="260" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_idx_normal1" value="KEY idx_user_id (user_id)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#6b7280;" parent="1" vertex="1">
+          <mxGeometry x="340" y="638" width="180" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_idx_normal2" value="KEY idx_status (status)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#6b7280;" parent="1" vertex="1">
+          <mxGeometry x="340" y="656" width="180" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_idx_normal3" value="KEY idx_created_at (created_at)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#6b7280;" parent="1" vertex="1">
+          <mxGeometry x="340" y="674" width="200" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_engine" value="ENGINE=InnoDB  CHARSET=utf8mb4_unicode_ci" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#6b7280;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="260" y="695" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="table_ssh_connection_config_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f7fa;strokeColor=#b3b3b3;shadow=1;fontSize=12;arcSize=2;" parent="1" vertex="1">
+          <mxGeometry x="760" y="81.5" width="600" height="648.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_config_header" value="📋 ssh_connection_config — SSH连接高级配置表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a3a5c;strokeColor=#0d2137;fontSize=14;fontColor=#ffffff;fontStyle=1;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="760" y="81.5" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_config_col_header" value="字段名" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1a3a5c;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="780" y="121.5" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_config_type_header" value="类型" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1a3a5c;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="940" y="121.5" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_config_null_header" value="NULL" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1a3a5c;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="121.5" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_config_default_header" value="默认值" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1a3a5c;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="121.5" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_config_comment_header" value="注释" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1a3a5c;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="121.5" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_connection_config_line1" value="" style="line;strokeWidth=2;html=1;strokeColor=#b3b3b3;" parent="1" vertex="1">
+          <mxGeometry x="780" y="141.5" width="560" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_row1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="780" y="151.5" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_pk" value="PK" style="text;html=1;strokeColor=none;fillColor=#c8960c;fontColor=#ffffff;align=center;verticalAlign=middle;rounded=1;fontSize=9;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="785" y="156.5" width="28" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_id" value="id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=45;" parent="1" vertex="1">
+          <mxGeometry x="820" y="156.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_id_type" value="bigint" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="156.5" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_id_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1075" y="156.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_id_default" value="-" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="156.5" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_id_comment" value="自增主键" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="156.5" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_row2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="780" y="181.5" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_uk" value="UK" style="text;html=1;strokeColor=none;fillColor=#2980b9;fontColor=#ffffff;align=center;verticalAlign=middle;rounded=1;fontSize=9;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="785" y="186.5" width="28" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_connection_id_type" value="varchar(64)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="186.5" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_connection_id_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1075" y="186.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_connection_id_default" value="-" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="186.5" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_connection_id_comment" value="关联的连接ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="186.5" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_row3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="780" y="211.5" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_connect_timeout" value="connect_timeout" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="820" y="216.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_connect_timeout_type" value="int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="216.5" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_connect_timeout_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1075" y="216.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_connect_timeout_default" value="10" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="216.5" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_connect_timeout_comment" value="连接超时时间(秒)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="216.5" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_row4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="780" y="241.5" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_keepalive_interval" value="keepalive_interval" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="820" y="246.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_keepalive_interval_type" value="int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="246.5" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_keepalive_interval_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1075" y="246.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_keepalive_interval_default" value="60" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="246.5" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_keepalive_interval_comment" value="保活间隔(秒)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="246.5" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_row5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="780" y="271.5" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_startup_command" value="startup_command" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="820" y="276.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_startup_command_type" value="varchar(512)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="276.5" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_startup_command_null" value="√" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1075" y="276.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_startup_command_default" value="NULL" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="276.5" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_startup_command_comment" value="连接后执行的启动命令" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="276.5" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_row6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="780" y="301.5" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_compression" value="compression" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="820" y="306.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_compression_type" value="tinyint" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="306.5" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_compression_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1075" y="306.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_compression_default" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="306.5" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_compression_comment" value="是否压缩:0-否,1-是" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="306.5" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_row7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="780" y="331.5" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_strict_host_key_check" value="strict_host_key_check" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="820" y="336.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_strict_host_key_check_type" value="tinyint" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="336.5" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_strict_host_key_check_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1075" y="336.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_strict_host_key_check_default" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="336.5" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_strict_host_key_check_comment" value="严格主机密钥检查:0-否,1-是" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="336.5" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_row8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="780" y="361.5" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_known_hosts" value="known_hosts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="820" y="366.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_known_hosts_type" value="longtext" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="366.5" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_known_hosts_null" value="√" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1075" y="366.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_known_hosts_default" value="NULL" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="366.5" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_known_hosts_comment" value="已知主机密钥列表" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="366.5" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_row9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="780" y="391.5" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_updated_at" value="updated_at" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="820" y="396.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_updated_at_type" value="datetime" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#6b7280;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="396.5" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_updated_at_null" value="✗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#c0392b;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1075" y="396.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_updated_at_default" value="NOW()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="396.5" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_updated_at_comment" value="更新时间(自动刷新)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#1a1c23;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="396.5" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_idx_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f4f8;strokeColor=#b3d9e8;shadow=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="780" y="431.5" width="570" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_idx_title" value="🔑 索引" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1a3a5c;spacingLeft=8;" parent="1" vertex="1">
+          <mxGeometry x="788" y="436.5" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_idx_pk" value="PRIMARY KEY (id)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#c8960c;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="788" y="459.5" width="180" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_idx_uk" value="UNIQUE KEY uk_connection_id (connection_id)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#2980b9;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="785" y="489" width="260" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh_config_engine" value="ENGINE=InnoDB  CHARSET=utf8mb4_unicode_ci" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#6b7280;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="940" y="519" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relation_line" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;strokeColor=#2980b9;strokeWidth=2;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="182.5" as="sourcePoint" />
+            <mxPoint x="720" y="187.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_label" value="1 ↔ 1" style="text;html=1;strokeColor=none;fillColor=#2980b9;fontColor=#ffffff;align=center;verticalAlign=middle;rounded=1;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="183.5" width="80" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="relation_desc" value="ssh_connection.connection_id  ↔  ssh_connection_config.connection_id  (一对一关联)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#1a3a5c;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="760" width="340" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="bTp-EeesmIIAYCCpGpth-1" value="&lt;span style=&quot;color: rgb(26, 28, 35); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;connection_id&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="182.5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bTp-EeesmIIAYCCpGpth-2" value="&lt;span style=&quot;color: rgb(26, 28, 35); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;connection_id&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="184" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bTp-EeesmIIAYCCpGpth-3" value="MindShell" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1226" y="704" width="134" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

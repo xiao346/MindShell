@@ -1,0 +1,16 @@
+name: mindshell
+services:
+  mysql:
+    image: mysql:8.0.33
+    environment:
+      MYSQL_DATABASE: mindshell
+      MYSQL_USER: "${MINDSHELL_DB_USER:-mindshell}"
+      MYSQL_PASSWORD: "${MINDSHELL_DB_PASSWORD:?Set MINDSHELL_DB_PASSWORD}"
+      MYSQL_ROOT_PASSWORD: "${MINDSHELL_DB_ROOT_PASSWORD:?Set MINDSHELL_DB_ROOT_PASSWORD}"
+    ports:
+      - "127.0.0.1:13306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./mysql/sql/mindshell.sql:/docker-entrypoint-initdb.d/01-mindshell.sql:ro
+volumes:
+  mysql-data:
